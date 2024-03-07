@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{background-color: rgb(245, 241, 241);}
+nav{
+    padding: 15px 3px;
+    font-size: 20px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    border-radius: 50px;
+    padding: 5px;
+}
+#bt2{
+    background-color: orangered;
+    border: none;
+}
+
+#body{
+    text-transform: uppercase;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   font-size:40px;
+   width: 100%;
+   text-align: center;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 4px 7px;
+}
+
+footer{
+    position: absolute;
+    bottom: 1%;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+#arrow{
+    margin-right: 250px;
+    font-size: 70px;
+}
+#left{
+    margin-right: 250px;
+}
+#icon{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 230px;
+    height:300px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid rgba(128, 128, 128, 0.459);
+}
+#img1{transform: translate(-50%,-50%) rotate(-1deg);}
+#img2{transform: translate(-50%,-50%) rotate(-07deg);}
+#img3{transform: translate(-50%,-50%) rotate(-12deg);}
+#img4{transform: translate(-50%,-50%) rotate(-18deg);}
